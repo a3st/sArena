@@ -108,6 +108,9 @@ local auraList = tInvert({
 	20549, -- War Stomp
 	19482, -- War Stomp
 
+	85388, -- Throwdown
+	90337, -- Bad Manner (Hunter Pet Stun)
+
 	-- Silences
 
 	25046, -- Arcane Torrent
