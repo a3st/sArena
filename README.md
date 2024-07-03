@@ -21,7 +21,7 @@ Ctrl+Shift+Click to drag stuff.
 
 ## sArena Layouts
 
-[Repo](https://github.com/a3st/sArena_Layouts)
+Available at [Repo](https://github.com/a3st/sArena_Layouts).
 
 ## Support
 
