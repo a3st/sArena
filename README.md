@@ -1,6 +1,6 @@
 # Enhanced Arena Frames (Cata Classic)
 
-Arena frames in standard Blizzard design with additional information.
+Arena frames in standard Blizzard design with additional information. Fork of an addon [sArena](https://github.com/stako/sArena) ([stako](https://github.com/stako)).
 
 ![Preview](https://github.com/a3st/sArena/raw/main/media/sArena_1.png)
 
@@ -12,9 +12,10 @@ Arena frames in standard Blizzard design with additional information.
 - Multiple layouts
 - Enemy specialization detections
 
-Ctrl+Shift+Click to drag stuff
+## Quick Start
+Type /sarena for open addon's options.
 
-Fork of an addon [sArena](https://github.com/stako/sArena) ([stako](https://github.com/stako)).
+Ctrl+Shift+Click to drag stuff
 
 ## sArena Layouts
 
