@@ -15,7 +15,7 @@ Arena frames in standard Blizzard design with additional information. Fork of an
 ## Quick Start
 Type /sarena for open addon's options.
 
-Ctrl+Shift+Click to drag stuff
+Ctrl+Shift+Click to drag stuff.
 
 ## sArena Layouts
 
