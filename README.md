@@ -5,6 +5,7 @@ Arena frames in standard Blizzard design with additional information. Fork of an
 ![Preview](https://github.com/a3st/sArena/raw/main/media/sArena_1.png)
 
 ## Features
+
 - Trinket & Racial Tracker
 - DR Tracker
 - See important buffs & debuffs
@@ -13,6 +14,7 @@ Arena frames in standard Blizzard design with additional information. Fork of an
 - Enemy specialization detections
 
 ## Quick Start
+
 Type /sarena for open addon's options.
 
 Ctrl+Shift+Click to drag stuff.
