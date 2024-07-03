@@ -99,12 +99,12 @@ function layout:Initialize(frame)
 
     local healthBar = frame.HealthBar
     healthBar:SetSize(69, 7)
-    healthBar:SetStatusBarTexture("Interface\\TargetingFrame\\UI-StatusBar")
+    healthBar:SetStatusBarTexture("Interface\\AddOns\\SUI\\Media\\Textures\\Status\\MelliDark")
 
     local powerBar = frame.PowerBar
     powerBar:SetSize(69, 8)
     powerBar:SetPoint("TOPLEFT", healthBar, "BOTTOMLEFT", 0, -1)
-    powerBar:SetStatusBarTexture("Interface\\TargetingFrame\\UI-StatusBar")
+    powerBar:SetStatusBarTexture("Interface\\AddOns\\SUI\\Media\\Textures\\Status\\MelliDark")
 
     local f = frame.ClassIcon
     f:SetSize(24, 24)
@@ -127,7 +127,7 @@ function layout:Initialize(frame)
     f:SetHeight(12)
 
     f = frame.CastBar
-    f:SetStatusBarTexture("Interface\\TargetingFrame\\UI-StatusBar")
+    f:SetStatusBarTexture("Interface\\AddOns\\SUI\\Media\\Textures\\Status\\MelliDark")
 
     f = frame.DeathIcon
     f:ClearAllPoints()

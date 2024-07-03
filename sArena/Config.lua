@@ -784,7 +784,22 @@ sArenaMixin.optionsTable = {
                                     get = function(info) return info.handler.db.profile.showNames end,
                                     set = function(info, val)
                                         info.handler.db.profile.showNames = val
+                                        info.handler.db.profile.showArenaNumber = false
                                         for i = 1, 3 do info.handler["arena" .. i].Name:SetShown(val) end
+                                    end,
+                                },
+                                showArenaNumber = {
+                                    order = 3,
+                                    name = "Show Arena Number",
+                                    type = "toggle",
+                                    get = function(info) return info.handler.db.profile.showArenaNumber end,
+                                    set = function(info, val)
+                                        info.handler.db.profile.showArenaNumber = val
+                                        info.handler.db.profile.showNames = false
+                                        for i = 1, 3 do
+                                            info.handler["arena" .. i].Name:SetShown(val)
+                                            info.handler["arena" .. i].Name:SetText("arena"..i)
+                                        end
                                     end,
                                 },
                             },

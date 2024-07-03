@@ -65,6 +65,9 @@ local auraList = tInvert({
 	5589, -- Hammer of Justice R3
 	5588, -- Hammer of Justice R2
 
+	85388, -- Throwdown
+	90337, -- Bad Manner
+
 	48817, -- Holy Wrath
 
 	47995, -- Intercept
@@ -108,9 +111,6 @@ local auraList = tInvert({
 	20549, -- War Stomp
 	19482, -- War Stomp
 
-	85388, -- Throwdown
-	90337, -- Bad Manner (Hunter Pet Stun)
-
 	-- Silences
 
 	25046, -- Arcane Torrent
@@ -131,6 +131,8 @@ local auraList = tInvert({
 	47476, -- Strangulate
 
 	43523, -- Unstable Affliction Silence
+
+
 
 
 	-- Stun Procs
