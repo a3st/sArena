@@ -47,6 +47,7 @@ local specSpells = {
     [34914] = "Shadow",        -- Vampiric Touch
     [64044] = "Shadow",        -- Horror
     [47585] = "Shadow",        -- Dispersion
+    [15473] = "Shadow",        -- Shadow Form
     -- DEATHKNIGHT
     [48982] = "Blood",         -- Rune Tap
     [49028] = "Blood",         -- Dancing Rune Weapon
