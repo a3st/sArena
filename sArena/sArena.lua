@@ -7,6 +7,7 @@ sArenaMixin.defaultSettings = {
         currentLayout = "BlizzArena",
         classColors = true,
         showNames = true,
+        showArenaNumber = true,
         statusText = {
             usePercentage = false,
             alwaysShow = true,
@@ -284,7 +285,11 @@ function sArenaFrameMixin:OnEvent(event, eventUnit, arg1, arg2)
 
     if (eventUnit and eventUnit == unit) then
         if (event == "UNIT_NAME_UPDATE") then
-            self.Name:SetText(GetUnitName(unit))
+            if (db.profile.showArenaNumber) then
+                self.Name:SetText(unit)
+            elseif (db.profile.showNames) then
+                self.Name:SetText(GetUnitName(unit))
+            end
         elseif (event == "ARENA_OPPONENT_UPDATE") then
             self:UpdatePlayer(arg1)
         elseif (event == "UNIT_AURA") then
@@ -380,8 +385,13 @@ function sArenaFrameMixin:UpdatePlayer(unitEvent)
 
     self.hideStatusText = false
 
-    self.Name:SetText(GetUnitName(unit))
-    self.Name:SetShown(db.profile.showNames)
+    if (db.profile.showNames) then
+        self.Name:SetText(GetUnitName(unit))
+        self.Name:SetShown(true)
+    elseif (db.profile.showArenaNumber) then
+        self.Name:SetText(self.unit)
+        self.Name:SetShown(true)
+    end
 
     self:UpdateStatusTextVisible()
     self:SetStatusText()

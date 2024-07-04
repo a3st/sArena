@@ -243,6 +243,7 @@ drList = {
 	[20549] = "Stun",      -- War Stomp (Racial)
 	[85388] = "Stun",      -- Throwdown
 	[90337] = "Stun",      -- Bad Manner (Hunter Pet Stun)
+	[91800] = "Stun",	   -- Gnaw (DK Pet Stun)
 
 	[16922] = "RandomStun", -- Celestial Focus (Starfire Stun)
 	[28445] = "RandomStun", -- Improved Concussive Shot
