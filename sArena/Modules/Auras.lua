@@ -292,6 +292,7 @@ local auraList = tInvert({
 	26679, -- Deadly Throw - Interrupt
 	1330, -- Garrote - Silence
 
+	57994, -- Wind Shear
 
 	-- Anti CCs
 	48707, -- Anti-Magic Shell
