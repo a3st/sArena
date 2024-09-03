@@ -6,7 +6,7 @@ Arena frames in standard Blizzard design with additional information.
 
 Fork of an addon [sArena](https://github.com/stako/sArena) ([stako](https://github.com/stako)).
 
-![Preview](https://github.com/a3st/sArena/raw/main/media/sArena_1.png)
+![Preview](media/sArena_1.png)
 
 ## Features
 
@@ -27,7 +27,7 @@ Ctrl+Shift+Click to drag stuff.
 
 ### Xaryu
 
-![Xaryu](https://github.com/a3st/sArena_Layouts/raw/main/media/Xaryu_Layout.png)
+![Xaryu](media/Xaryu_Layout.png)
 
 ## Support
 
