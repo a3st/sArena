@@ -1,0 +1,7 @@
+## Interface: 40400
+## Title: sArena: Xaryu
+## Author: Xaryu
+## Version: 1
+## Dependencies: sArena
+
+Xaryu.lua
