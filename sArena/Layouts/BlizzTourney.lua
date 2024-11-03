@@ -144,6 +144,7 @@ function layout:Initialize(frame)
     local id = frame:GetID()
     layout["frameTexture" .. id] = frame.TexturePool:Acquire()
     local frameTexture = layout["frameTexture" .. id]
+    frameTexture:SetParent(frame)
     frameTexture:SetDrawLayer("ARTWORK", 2)
     frameTexture:SetSize(160, 80)
     frameTexture:SetAtlas("UnitFrame")

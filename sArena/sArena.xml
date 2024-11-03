@@ -208,7 +208,7 @@
 			<Frame parentKey="Cyclone" inherits="sArenaDRTrackerTemplate"/>
 			<Frame parentKey="Charge" inherits="sArenaDRTrackerTemplate"/>
 			<Frame parentKey="OpenerStun" inherits="sArenaDRTrackerTemplate"/>
-			<Frame parentKey="CounterAttack" inherits="sArenaDRTrackerTemplate"/>
+			<Frame parentKey="Counterattack" inherits="sArenaDRTrackerTemplate"/>
         </Frames>
 
         <Scripts>

@@ -16,24 +16,24 @@ sArenaMixin.defaultSettings.profile.racialCategories = {
 }
 
 local racialSpells = {
-	[20549] = 120, -- War Stomp
-	[7744] = 120, -- Will of the Forsaken
-	[20554] = 180, -- Berserking
-	[20572] = 120, -- Blood Fury
-	[58984] = 10, -- Shadowmeld
-	[20589] = 105, -- Escape Artist
-	[20594] = 180, -- Stoneform
-	[59752] = 120, -- Will to Survive
-	[26297] = 180, -- Berserking - Rogue
-	[28880] = 180, -- Gift of the Naaru
-	[26296] = 180, -- Berserking - Warr
-	[33702] = 120, -- Blood Fury - Caster
-	[25046] = 120, -- Arcane Torrent - Rogue
-	[28730] = 120, -- Arcane Torrent
-	[50613] = 120, -- Arcane Torrent - Death Knight
-	[69070] = 120, -- Rocket Jump
-	[69041] = 120, -- Rocket Barrage
-	[68992] = 120, -- Darkflight
+	[20549] = 120, 		-- War Stomp
+	[7744] = 120, 		-- Will of the Forsaken
+	[20554] = 180, 		-- Berserking
+	[20572] = 120, 		-- Blood Fury
+	[58984] = 10, 		-- Shadowmeld
+	[20589] = 105, 		-- Escape Artist
+	[20594] = 180, 		-- Stoneform
+	[59752] = 120, 		-- Will to Survive
+	[26297] = 180, 		-- Berserking - Rogue
+	[28880] = 180, 		-- Gift of the Naaru
+	[26296] = 180, 		-- Berserking - Warr
+	[33702] = 120, 		-- Blood Fury - Caster
+	[25046] = 120, 		-- Arcane Torrent - Rogue
+	[28730] = 120, 		-- Arcane Torrent
+	[50613] = 120, 		-- Arcane Torrent - Death Knight
+	[69070] = 120, 		-- Rocket Jump
+	[69041] = 120, 		-- Rocket Barrage
+	[68992] = 120, 		-- Darkflight
 }
 
 local racialData = {

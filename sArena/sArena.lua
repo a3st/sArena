@@ -71,7 +71,6 @@ local function UpdateBlizzVisibility(instanceType)
 end
 
 -- Parent Frame
-
 function sArenaMixin:OnLoad()
     self:RegisterEvent("PLAYER_LOGIN")
     self:RegisterEvent("PLAYER_ENTERING_WORLD")

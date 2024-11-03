@@ -33,7 +33,7 @@ local drCategories = {
     ["Cyclone"] = "Cyclone",
     ["Charge"] = "Charge",
     ["OpenerStun"] = "OpenerStun",
-    ["CounterAttack"] = "CounterAttack",
+    ["Counterattack"] = "Counterattack",
 }
 
 local racialCategories = {
@@ -597,7 +597,7 @@ function sArenaMixin:UpdateDRSettings(db, info, val)
         "Cyclone",
         "Charge",
         "OpenerStun",
-        "CounterAttack",
+        "Counterattack",
     }
 
     if (val) then
